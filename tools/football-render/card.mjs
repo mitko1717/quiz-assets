@@ -3,21 +3,20 @@ import { CSS, themeVars } from './card-css.mjs';
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const POSITION_CODE = { Attack: 'FW', Midfield: 'MF', Defender: 'DF', Goalkeeper: 'GK' };
-const BASE_FONT_BY_COLUMNS = { 2: 44, 3: 34, 4: 28 };
+const BASE_FONT_BY_COLUMNS = { 2: 54, 3: 44 };
 
 function columnsFor(count) {
-  if (count <= 4) return 2;
-  if (count <= 9) return 3;
+  if (count <= 8) return 2;
 
-  return 4;
+  return 3;
 }
 
 function clubFontSize(name, columns) {
   const base = BASE_FONT_BY_COLUMNS[columns];
-  const maxChars = { 2: 13, 3: 11, 4: 9 }[columns];
+  const maxChars = { 2: 12, 3: 9 }[columns];
   const overflow = Math.max(0, name.length - maxChars);
 
-  return Math.max(20, Math.round(base - overflow * 1.6));
+  return Math.max(24, Math.round(base - overflow * 2.2));
 }
 
 function renderStep(stint, index, isLast, columns) {

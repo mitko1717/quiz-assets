@@ -23,7 +23,7 @@ body { font-family: Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
 .num { flex: none; width: 1.6em; height: 1.6em; margin: 0 .5em; border-radius: 50%; display: grid;
   place-items: center; font-size: .55em; font-weight: 900; color: var(--ink); background: var(--accent); }
 .text { display: flex; flex-direction: column; min-width: 0; flex: 1; padding-right: 12px; }
-.meta { display: flex; align-items: center; gap: 10px; font-size: .5em; font-weight: 700; color: var(--muted); }
+.meta { display: flex; align-items: center; gap: 10px; font-size: .58em; font-weight: 800; color: var(--muted); }
 .club { font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.1; }
 .last { background: #ffffff24; outline: 4px solid var(--accent);
   box-shadow: 0 0 28px color-mix(in srgb, var(--accent) 35%, transparent); }
@@ -31,6 +31,6 @@ body { font-family: Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
 .tag { font-size: .85em; font-weight: 900; letter-spacing: 1px; color: #fff; background: #ffffff22;
   padding: 2px 10px; border-radius: 999px; }
 .chips { display: flex; gap: 14px; }
-.chip { font-size: 28px; font-weight: 900; padding: 8px 22px; border-radius: 999px;
+.chip { font-size: 36px; font-weight: 900; padding: 6px 24px; border-radius: 999px;
   background: #ffffff14; border: 2px solid #ffffff22; }
 `;
