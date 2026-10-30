@@ -1,0 +1,20 @@
+[
+  { "id": "mbappe", "position": "Attack", "flag": "🇫🇷", "nationality": "Франція", "career": [
+    { "year": 2015, "club": "Monaco", "colors": ["#e30613", "#ffffff"] },
+    { "year": 2017, "club": "PSG", "colors": ["#004170", "#da291c"] },
+    { "year": 2024, "club": "Real Madrid", "colors": ["#ffffff", "#febe10"] } ] },
+  { "id": "ronaldo", "position": "Attack", "flag": "🇵🇹", "nationality": "Португалія", "career": [
+    { "year": 2002, "club": "Sporting", "colors": ["#0a7f3f", "#ffffff"] },
+    { "year": 2003, "club": "Man Utd", "colors": ["#da291c", "#000000"] },
+    { "year": 2009, "club": "Real Madrid", "colors": ["#ffffff", "#febe10"] },
+    { "year": 2021, "club": "Man Utd", "colors": ["#da291c", "#000000"] },
+    { "year": 2023, "club": "Al-Nassr", "colors": ["#fcd116", "#0033a0"] } ] },
+  { "id": "kane", "position": "Attack", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "nationality": "Англія", "career": [
+    { "year": 2009, "club": "Tottenham", "colors": ["#ffffff", "#132257"] },
+    { "year": 2011, "club": "Leyton Orient", "colors": ["#e00000", "#ffffff"], "loan": true },
+    { "year": 2012, "club": "Millwall", "colors": ["#001d5e", "#ffffff"], "loan": true },
+    { "year": 2012, "club": "Norwich", "colors": ["#fff200", "#00a650"], "loan": true },
+    { "year": 2013, "club": "Leicester", "colors": ["#003090", "#fdbe11"], "loan": true },
+    { "year": 2013, "club": "Tottenham", "colors": ["#ffffff", "#132257"] },
+    { "year": 2023, "club": "Bayern Munich", "colors": ["#dc052d", "#ffffff"] } ] }
+]
