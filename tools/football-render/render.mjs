@@ -13,7 +13,16 @@ function fitClubNames() {
     const club = step.querySelector('.club');
     let size = parseFloat(getComputedStyle(step).fontSize);
 
-    while (club.scrollWidth > club.clientWidth && size > MIN_FONT) {
+    const overflows = () => {
+      const range = document.createRange();
+      range.selectNodeContents(club);
+      const textRight = range.getBoundingClientRect().right;
+      const stepRight = step.getBoundingClientRect().right - 12;
+
+      return textRight > stepRight;
+    };
+
+    while (overflows() && size > MIN_FONT) {
       size -= 1;
       step.style.fontSize = `${size}px`;
     }
