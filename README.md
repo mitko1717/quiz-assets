@@ -1,5 +1,16 @@
 # quiz-assets
 
+Public static assets for the Quiz Platform (Telegram bots + web apps), served via GitHub raw:
+`https://raw.githubusercontent.com/mitko1717/quiz-assets/master/<path>`
+
+| Path | Content |
+|---|---|
+| `logos/` | Game logos (`<game>-quiz-logo.png`, 512px variants) |
+| `banners/` | Telegram start banners, 640×360 |
+| `pdr/` | ПДР question images (`.webp`) |
+| `football/careers/` | Football career-path cards, 960×540 JPEG (`player-career-<tmPlayerId>.jpg`) |
+| `tools/football-render/` | Career card renderer (Playwright); cards use club names and colours only, no crests |
+
 ## Links
 
 - Website: [ПДР Тести — підготовка до іспиту ПДР України](https://pdr-testy.com.ua/)
